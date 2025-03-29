@@ -19,8 +19,8 @@ const CustomButton = ({
         border: outlined && "1px solid #16a34a",
         textTransform: "none",
         borderRadius: "8px",
-        padding: padding ? padding : "10px 16px",
-        fontSize: "16px",
+        padding: padding ? padding : "8px 12px",
+        fontSize: "15px",
         fontWeight: 600,
         width: width ? width : "auto",
       }}
