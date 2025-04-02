@@ -9,8 +9,16 @@ import CustomButton from "./CustomButton";
 import PeopleIcon from "@mui/icons-material/People";
 import TaskAltIcon from "@mui/icons-material/TaskAlt";
 import CustomChip from "./CustomChip";
+import { useNavigate } from "react-router-dom";
 
 const TournamentCard = ({}) => {
+  const navigate = useNavigate();
+
+  const handleNavigate = () => {
+    navigate("/tournaments/1");
+    console.log("hello");
+  };
+
   return (
     <Card sx={{ width: "450px", borderRadius: "10px" }}>
       <div className="" style={{ position: "relative" }}>
@@ -189,7 +197,11 @@ const TournamentCard = ({}) => {
           className="button-group"
           style={{ marginTop: "25px", display: "flex", gap: "15px" }}
         >
-          <CustomButton title={"Join Tournament"} width={"60%"} />
+          <CustomButton
+            title={"Join Tournament"}
+            width={"60%"}
+            handleClick={handleNavigate}
+          />
           <CustomButton title={"Read more"} width={"40%"} outlined={true} />
         </div>
       </div>

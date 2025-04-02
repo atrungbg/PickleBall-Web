@@ -19,7 +19,7 @@ export const tournaments = [
     location: "Ho Chi Minh City Sports Arena",
     prizePool: 7000,
     imgUrl:
-      "https://i.pinimg.com/736x/1b/00/36/1b00360209605469210ecf9d7ab4a13e.jpg",
+      "https://i.pinimg.com/736x/7c/ea/c8/7ceac8dbcfbdb056bddd381f18d4af34.jpg",
   },
   {
     name: "Winter Classic Cup",
